@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+.container {
+	border: 3px solid;
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	flex-wrap: wrap;
+	align-content: space-between;
+
+}
+
+.item {
+	background-color: #373131;
+	padding: 30px;
+	color: #fff;
+	width: 500px;
+}
+
+.item:nth-child(odd) {
+	background-color: #0A1A46;
+}

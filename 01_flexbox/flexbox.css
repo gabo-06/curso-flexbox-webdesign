@@ -1,0 +1,15 @@
+.padre
+{
+	border: 1px solid;
+	display: flex;
+	height: 200px;
+	width: 100%;
+}
+
+.hijo
+{
+	background-color: red;	
+	margin: auto;
+	height: 50px;
+	width: 50px;
+}
