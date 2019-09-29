@@ -21,3 +21,8 @@
 .item:nth-child(odd) {
 	background-color: #0A1A46
 }
+
+a
+{
+	color: red;
+}
